@@ -14,11 +14,29 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <!-- leaflet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
   </head>
   <body>
-    
-    <h1>Contenido Aqui</h1>
+    <div class="container py-2">
+      <h1 class="text-center p-4" >Mapas</h1>
 
+      <div id="mapid"></div>
+    </div>
+
+    <button class="btn btn-primary text-center" id="randomPlaceBtn">Ir a lugar Random</button>
+
+    <!-- LeaftLet -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
     <!-- Bootsrap -->
 
     <script
